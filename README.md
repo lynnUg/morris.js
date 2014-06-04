@@ -3,8 +3,8 @@ morris.js
 
 morris.js with small hack that adds axes titles
 
-Example Usage 
-
+###Example Usage 
+```javascript
 Morris.Line({
                             element: 'morris-chart-line',
                             data: data,
@@ -16,3 +16,4 @@ Morris.Line({
                             yaxisLabel:"Sales in UGX and Expenditure",
                             xaxisLabel:"Days"
   });
+```
